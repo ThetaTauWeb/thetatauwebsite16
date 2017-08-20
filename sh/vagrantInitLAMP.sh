@@ -16,16 +16,16 @@ echo "vagrant-provisioning:[Configuring MySQL]"
 sudo mysql_install_db
 # PHP install
 echo "vagrant-provisioning:[Installing PHP5]"
-sudo apt-get -y install php5 libapache2-mod-php5 php5-mcrypt
+sudo apt-get -y install php5 libapache2-mod-php5 php5-mcrypt 
 # SSH opens in /var/www where the code is
 export HOME=/var/www
 
 echo "vagrant-provisioning:[Initiallizing MySQL]"
 # Load mysql permissions into file so we don't have to provide them
-#echo mysql-startup-credentials > ~/.my.cnf
-mysql < $HOME/mysql/initDB.sql
-mysql < $HOME/mysql/initTables.sql
-mysql < $HOME/mysql/test-data.sql
+# cat $HOME/sh/mysql-startup-credentials > .my.cnf
+mysql -u root -proot < $HOME/mysql/initDB.sql
+mysql -u root -proot < $HOME/mysql/initTables.sql
+mysql -u root -proot < $HOME/mysql/test-data.sql
 
 echo "vagrant-provisioning:[Modifiying php.ini]"
 sudo echo "display_errors=On" >> /etc/php5/apache2/php.ini

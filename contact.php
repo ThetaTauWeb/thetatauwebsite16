@@ -18,8 +18,10 @@
             <li>Our regents at <a href="mailto:tht-regents@umich.edu">tht-regents@umich.edu</a></li>
             <li>Our E-board at <a href="mailto:tht-eboard@umich.edu">tht-eboard@umich.edu</a></li>
             <li>Our corresponding secretary at <a href="mailto:tht-corsec@umich.edu">tht-corsec@umich.edu</a></li>
+            <li>Our corporate sponsorship chairs at <a href="mailto:tht-corporate@umich.edu">tht-corporate@umich.edu</a></li>
         </ul>
         <br>
+        <p class="lead"></p>
       </div>
     </div>
   </div>
