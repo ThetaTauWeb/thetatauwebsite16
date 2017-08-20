@@ -3,9 +3,7 @@
   include_once 'php/services/mastdata-service.php';
   include_once 'php/templates/boilerplate.php';
   include_once 'php/templates/masthead-template.php';
-
   // If logged in, show landing page
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,9 +22,7 @@
   <!-- Content for body -->
   <script type="text/javascript">
     //# OF MAST SLIDES
-
     <?php configservice('index', true); ?>
-
   </script>
 
   <?php 

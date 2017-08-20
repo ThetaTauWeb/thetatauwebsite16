@@ -50,7 +50,7 @@
         <div class="col-xs-12 col-sm-9 col-sm-offset-1">
         <?php 
           $events = rushcalendarservice($rushConfig, "rush");
-          eventstemplate($events, "rush");
+          rush_events_template($events);
         ?>
         </div>
       </div>

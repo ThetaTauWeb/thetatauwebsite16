@@ -16,8 +16,7 @@
         the rush events section rendered from the given events (for rush page)
   */
 
-
-  function eventstemplate($events, $page) {
+  function rush_events_template($events) {
     /*
       Note that interest in the winter semester 
       Usually spans from November - February.
@@ -40,7 +39,7 @@
     </div>
 <?php
     }
-    if (count($events) == 0 && $page == "rush") {
+    if (count($events) == 0) {
 ?>
     <p class='lead'>
       It looks like our Rush Chairs haven't created rush events for the upcoming semester yet or rush has already ended. The best way to get the latest information about rush would be to <a href='mailto:tht-rush@umich.edu'>contact us.</a>
@@ -48,7 +47,40 @@
     <hr class='divider'>
 <?php
     }
-    else if (count($events) == 0 && $page == "corporate") {
+?>
+<?php
+    } 
+?>
+  
+
+<?php
+  /* 
+   * CORPORATE EVENTS TEMPLATE
+   * $events is an array of post objects from wordpress.
+   * The events are queried from the wordpress database and rendered on corporate.php 
+   * with this function.
+   */
+
+  function corporate_events_template($events) {
+    foreach($events as $i => $event) {
+	    setup_postdata($event);
+?>
+    <div class="col-xs-10 col-xs-offset-1 event-card">
+      <div class='col-xs-12 col-sm-8'>
+        <h1> <?php echo the_title(); ?> </h1>
+      </div>
+      <div class='col-xs-12 col-sm-4'>
+        <p> <?php echo the_date(); ?> </p>
+      </div>
+<!--
+      <div class="">
+        <h4> <?php echo the_excerpt(); ?> </h4>
+      </div>
+-->
+    </div>
+<?php
+    }
+    if (count($events) == 0) {
 ?> 
     <p class='lead'>
       It looks like we have no upcoming corporate events. 

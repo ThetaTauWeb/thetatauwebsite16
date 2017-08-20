@@ -7,9 +7,8 @@
 
 <!DOCTYPE html>
 <html lang="en">
+  <?php require_once('wp-blog-header.php') ?>
   <?php head_section(array(), array("css/corporate.css")); ?>
-
-  <?php $corporateConfig = configservice("corporate", false); ?>
 
   <body>
   <?php nav_section(); ?>
@@ -24,8 +23,9 @@
         <div class="row events opensans">
          <div class="col-xs-12 col-sm-9 col-sm-offset-1">
           <?php 
-            $events = corporatecalendarservice($corporateConfig);
-            eventstemplate($events, "corporate");
+			#events will be equivalent to wordpress posts
+			$events = get_posts('numberposts=10&order=ASC&orderby=post_title');
+            corporate_events_template($events, "corporate");
           ?>
           </div>
         </div>
