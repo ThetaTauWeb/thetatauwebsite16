@@ -2,7 +2,6 @@
   include_once 'php/templates/boilerplate.php';
   include_once 'php/templates/events-template.php';
   include_once 'php/services/config-service.php';
-  include_once 'php/services/corporatecalendar-service.php';
 ?>
 
 <!DOCTYPE html>
@@ -23,9 +22,11 @@
         <div class="row events opensans">
          <div class="col-xs-12 col-sm-9 col-sm-offset-1">
           <?php 
-			#events will be equivalent to wordpress posts
-			$events = get_posts('numberposts=10&order=ASC&orderby=post_title');
-            corporate_events_template($events, "corporate");
+			# events will be equivalent to wordpress posts, 
+			# for now will take all 'posts' in the future and display them
+			$args = array('post_status' => 'future', 'numberposts' => -1 ,'orderby' => 'post_date', 'order' => 'ASC');
+			$events = get_posts($args);
+            corporate_events_template($events);
           ?>
           </div>
         </div>

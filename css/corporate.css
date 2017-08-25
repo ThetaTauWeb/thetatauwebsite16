@@ -4,8 +4,9 @@
 }
 
 .event-card {
-	padding-top: 2vh;
-	border-left: 15px solid #A80505
+	margin-bottom: 30px;
+	background-color: white;
+	border-left: 15px solid #A80505;
 }
 
 .event-title {
@@ -14,4 +15,8 @@
 
 .divider {
 	border: 5px solid #A80505;
+}
+
+.time_date_header {
+	color: #808080;
 }

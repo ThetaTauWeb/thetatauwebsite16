@@ -62,30 +62,33 @@
    */
 
   function corporate_events_template($events) {
-    foreach($events as $i => $event) {
-	    setup_postdata($event);
+    # wordpress maintains a global post variable that we can alter
+    # one at a time with setup_postdata
+    global $post;
+    foreach($events as $post) {
+	    setup_postdata($post);
 ?>
-    <div class="col-xs-10 col-xs-offset-1 event-card">
-      <div class='col-xs-12 col-sm-8'>
-        <h1> <?php echo the_title(); ?> </h1>
-      </div>
-      <div class='col-xs-12 col-sm-4'>
-        <p> <?php echo the_date(); ?> </p>
-      </div>
-<!--
-      <div class="">
-        <h4> <?php echo the_excerpt(); ?> </h4>
-      </div>
--->
+    <!-- From there we can render aspects of the post such as content and title-->
+    <div class="row center-block">
+    	<div class="col-xs-12 col-sm-3">
+		<p class=""><?php the_post_thumbnail( 'thumbnail' );  ?> </p>
+    	</div>
+    	<div class="col-xs-12  col-sm-9 event-card">
+			<h4 class="time_date_header"> <?php echo get_the_date(), " ", the_time(); ?> </h4>
+        		<h1> <?php echo the_title(); ?> </h1>
+        		<p> <?php echo the_content(); ?> </p>
+	</div>
+
+
     </div>
 <?php
+	    wp_reset_postdata();
     }
     if (count($events) == 0) {
 ?> 
     <p class='lead'>
       It looks like we have no upcoming corporate events. 
     </p>
-    <hr class='divider'>   
 <?php
     } 
   }
