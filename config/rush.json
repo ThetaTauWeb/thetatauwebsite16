@@ -11,8 +11,8 @@
     "fall": {
       "period_begin_month": 9, 
       "period_begin_day": 1,  
-      "period_end_month": 10, 
-      "period_end_day": 31 
+      "period_end_month": 9, 
+      "period_end_day": 23 
     }
   },
   "api_query_string":"tht-rush@umich.edu"
