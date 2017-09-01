@@ -13,7 +13,7 @@ CREATE DATABASE thetatau_db;
 
 # create a user with the same name as the production one
 # DROP USER 'thetatau_user'@'localhost';
-CREATE USER 'thetatau_user'@'localhost' IDENTIFIED BY 'mysql';
+CREATE USER 'thetatau_user'@'localhost' IDENTIFIED BY 'thtwebF17';
 # user does whatever in this database, but can't make other dbs or query them
 GRANT ALL PRIVILEGES ON thetatau_db . * TO 'thetatau_user'@'localhost';
 # tells MySQL to reload privilege configs we just created

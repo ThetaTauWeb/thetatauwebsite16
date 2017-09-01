@@ -9,7 +9,7 @@
   function mysqlconnectionservice() {
     $servername = "localhost";
     $username = "thetatau_user";
-    $password = "mysql";
+    $password = "thtwebF17";
     $dbname = "thetatau_db";
 
     // Create connection

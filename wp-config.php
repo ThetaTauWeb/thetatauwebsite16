@@ -23,10 +23,10 @@
 define('DB_NAME', 'thetatau_db');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'thetatau_user');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'thtwebF17');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
