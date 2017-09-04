@@ -392,7 +392,7 @@ INSERT INTO users (userid, firstname, lastname, roll, verified, email, img) VALU
   ('rkoerner', 'Robert', 'Koerner', '377', FALSE, 'rkoerner@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
   ('mschlaf', 'Meagan', 'Schlaf', '379', FALSE, 'mschlaf@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
   ('deannakh', 'Deanna', 'Handley', '381', FALSE, 'deannakh@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
-  ('marianmf', 'Marian', 'Farah', '383', FALSE, 'marianmf@umich.edu', 'images/member-profiles/default_profile_img.jpg');
+  ('marianmf', 'Marian', 'Farah', '383', FALSE, 'marianmf@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
   ('sucharae', 'Erin', 'Suchara', '372', FALSE, 'sucharae@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
   ('jpbrink', 'Jacob', 'Brink', '374', FALSE, 'jpbrink@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
   ('nmanivan', 'Narayan', 'Manivannan', '376', FALSE, 'nmanivan@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
@@ -761,8 +761,7 @@ INSERT INTO profile (userid, major, city, state, grad_year, grad_sem, pledge_cla
   ('rkoerner','Mechanical Engineer','Ann Arbor','MI',2020,'Winter','Omicron Beta','',TRUE,'','shankark'),
   ('mschlaf','Industrial Operations Engineer','Ann Arbor','MI',2020,'Winter','Omicron Beta','',TRUE,'','ariantro'),
   ('deannakh','Industrial Operations Engineer','Ann Arbor','MI',2020,'Winter','Omicron Beta','',TRUE,'','brendjac'),
-  ('marianmf','Chemical Engineer','Ann Arbor','MI',2020,'Winter','Omicron Beta','',TRUE,'','dmholt');
-  ('shankark','Mechanical Engineering','Ann Arbor','MI',2020,'Winter','Xi Beta','',TRUE,'','camphan'),
+  ('marianmf','Chemical Engineer','Ann Arbor','MI',2020,'Winter','Omicron Beta','',TRUE,'','dmholt'),
   ('sucharae','Chemical Engineering','West Bloomfield','MI',2020,'Winter','Omicron Beta','',TRUE,'','katwolff'),
   ('jpbrink','Industrial Operations Engineering','West Bloomfield','IL',2020,'Winter','Omicron Beta','',TRUE,'','kenzienv'),
   ('nmanivan','Computer Science Engineering','Novi','MI',2020,'Winter','Omicron Beta','',TRUE,'','ttristan'),
@@ -2109,7 +2108,7 @@ INSERT INTO userroles (userid, roleid) VALUES
 ('rkoerner','active'),
 ('mschlaf','active'),
 ('deannakh','active'),
-('marianmf','active');
+('marianmf','active'),
 ('sucharae','active'),
 ('jpbrink','active'),
 ('nmanivan','active'),
@@ -2468,7 +2467,7 @@ INSERT INTO lineage (biguserid, littleuserid) VALUES
   ('shankark','rkoerner'),
   ('ariantro','mschlaf'),
   ('brendjac','deannakh'),
-  ('dmholt','marianmf');
+  ('dmholt','marianmf'),
   ('katwolff','sucharae'),
   ('kenzienv','jpbrink'),
   ('ttristan','nmanivan'),
