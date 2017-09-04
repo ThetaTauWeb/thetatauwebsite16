@@ -386,7 +386,14 @@ INSERT INTO users (userid, firstname, lastname, roll, verified, email, img) VALU
   ('ycluna', 'Yvette', 'Luna Guerra', '369', FALSE, 'ycluna@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
   ('hheber', 'Hannah', 'Herberle-Rose', '370', FALSE, 'hheber@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
   ('rousseva', 'Maria', 'Rousseva', '371', FALSE, 'rousseva@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
-  ('kenzienv', 'Mackenzie', 'Hans', '354', FALSE, 'kenzienv@umich.edu', 'images/member-profiles/default_profile_img.jpg');
+  ('kenzienv', 'Mackenzie', 'Hans', '354', FALSE, 'kenzienv@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('sucharae', 'Erin', 'Suchara', '372', FALSE, 'sucharae@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('jpbrink', 'Jacob', 'Brink', '374', FALSE, 'jpbrink@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('nmanivan', 'Narayan', 'Manivannan', '376', FALSE, 'nmanivan@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('hongro', 'Robert', 'Hong', '378', FALSE, 'hongro@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('grae', 'Grae', 'Abbot', '380', FALSE, 'grae@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('dmartyne', 'Deanna', 'Martynenko', '382', FALSE, 'dmartyne@umich.edu', 'images/member-profiles/default_profile_img.jpg');
+
   
 
 INSERT INTO profile (userid, major, city, state, grad_year, grad_sem, pledge_class, nickname, gender, phone, biguserid) VALUES
@@ -743,7 +750,13 @@ INSERT INTO profile (userid, major, city, state, grad_year, grad_sem, pledge_cla
   ('ycluna','Mechanical Engineering','Ann Arbor','MI',2019,'Winter','Xi Beta','',TRUE,'','jrnisbet'),
   ('hheber','Mechanical Engineering','Ann Arbor','MI',2019,'Winter','Xi Beta','',TRUE,'','madspeck'),
   ('rousseva','Mechanical Engineering','Ann Arbor','MI',2020,'Winter','Xi Beta','',TRUE,'','andyjm'),
-  ('shankark','Mechanical Engineering','Ann Arbor','MI',2020,'Winter','Xi Beta','',TRUE,'','camphan');
+  ('shankark','Mechanical Engineering','Ann Arbor','MI',2020,'Winter','Xi Beta','',TRUE,'','camphan'),
+  ('sucharae','Chemical Engineering','West Bloomfield','MI',2020,'Winter','Omicron Beta','',TRUE,'','katwolff'),
+  ('jpbrink','Industrial Operations Engineering','West Bloomfield','IL',2020,'Winter','Omicron Beta','',TRUE,'','kenzienv'),
+  ('nmanivan','Computer Science Engineering','Novi','MI',2020,'Winter','Omicron Beta','',TRUE,'','ttristan'),
+  ('hongro','Chemical Engineering','West Bloomfield','MI',2020,'Winter','Omicron Beta','',TRUE,'','altung'),
+  ('grae','Chemical Engineering','West Bloomfield','MI',2020,'Winter','Omicron Beta','',TRUE,'','bdcam'),
+  ('dmartyne','Chemical Engineering','West Bloomfield','MI',2020,'Winter','Omicron Beta','',TRUE,'','lizsgoul');
 
 INSERT INTO jobs (userid, title, company) VALUES
   ('genevich','Engineer','Pacific Northwest National Laboratory (internship)'),
@@ -2078,7 +2091,13 @@ INSERT INTO userroles (userid, roleid) VALUES
 ('ggabala','active'),
 ('ycluna','active'),
 ('hheber','active'),
-('rousseva','active');
+('rousseva','active'),
+('sucharae','active'),
+('jpbrink','active'),
+('nmanivan','active'),
+('hongro','active'),
+('grae','active'),
+('dmartyne','active');
 
 INSERT INTO lineage (biguserid, littleuserid) VALUES
   ('maxkotu','rohansaw'),
@@ -2425,7 +2444,13 @@ INSERT INTO lineage (biguserid, littleuserid) VALUES
   ('oriachun','ggabala'),
   ('jrnisbet','ycluna'),
   ('madspeck','hheber'),
-  ('andyjm','rousseva');
+  ('katwolff','sucharae'),
+  ('kenzienv','jpbrink'),
+  ('ttristan','nmanivan'),
+  ('altung','hongro'),
+  ('bdcam','grae'),
+  ('lizsgoul','dmartyne');
+
 
 insert into mastcontent (mastimg) values
   ('images/mast/mast1.jpg'),
