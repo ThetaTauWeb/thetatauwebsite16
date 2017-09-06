@@ -6,6 +6,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+  <?php include_once("analyticstracking.php") ?>
   <?php require_once('wp-blog-header.php') ?>
   <?php head_section(array(), array("css/corporate.css")); ?>
 

@@ -11,6 +11,7 @@
     head_section(array(), array("css/rush.css"));
   ?>
   <body>
+	<?php include_once("analyticstracking.php") ?>
   <!-- Content -->
     <script type="text/javascript">
       <?php $rushConfig = configservice("rush", false); ?>
