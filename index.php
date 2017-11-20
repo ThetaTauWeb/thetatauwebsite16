@@ -46,7 +46,7 @@
       <!-- inner content (about/history) -->
       <div id="inner" class="row">
           <h3 class="text-center">About</h3>
-          <p>Theta Tau is Professional Engineering Fraternity. As a group, we are dedicated to the professional and social development of our members into professionals that will enter the industry as strong, contributing members. Our chapter is known as Theta Gamma Chapter and is one of the largest chapters in the Country.</p>
+          <p>Theta Tau is a Professional Engineering Fraternity. As a group, we are dedicated to the professional and social development of our members into professionals that will enter the industry as strong, contributing members. Our chapter is known as Theta Gamma Chapter and is one of the largest chapters in the Country.</p>
           <br>
           <p>Theta Tau is made up of smart, driven engineers who come from a diverse range of backgrounds and majors. Our chapter holds events weekly designed to instill a brotherhood among our members and develop ourselves as well as our college and University.</p>
           <p class="text-center join-button"><b> <a class="btn btn-tht" href="rush.php">Join Theta Tau </a></b></p>
