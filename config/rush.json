@@ -3,12 +3,8 @@
     "winter": {
       "period_begin_month": 1,
       "period_begin_day": 1, 
-      // Open rush end month/day 
-      "period_end_month": 1, 
+      "period_end_month": 1,
       "period_end_day": 14, 
-      // Closed rush end month/day
-      // "period_end_month": 2, 
-      // "period_end_day": 28, 
       "interest_begin_month": 11,
       "interest_end_month": 2 
     },
