@@ -1,4 +1,4 @@
-# Theta Tau Website 2016
+# Theta Tau Website 2018
 
 Welcome to the repo for the Theta Gamma Chapter of Theta Tau's Website. Theta Gamma is located in the University of Michigan. This website is intended to be a landing page for rush candidates to learn about our chapter and fraternity and for Members to conduct certain business functions.
 
