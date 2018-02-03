@@ -398,25 +398,24 @@ INSERT INTO users (userid, firstname, lastname, roll, verified, email, img) VALU
   ('nmanivan', 'Narayan', 'Manivannan', '376', FALSE, 'nmanivan@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
   ('hongro', 'Robert', 'Hong', '378', FALSE, 'hongro@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
   ('grae', 'Grae', 'Abbot', '380', FALSE, 'grae@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
-  ('dmartyne', 'Deanna', 'Martynenko', '382', FALSE, 'dmartyne@umich.edu', 'images/member-profiles/default_profile_img.jpg');
-  ('kaisc', 'Kai', 'Schiefer', '384', FALSE, 'kaisc@umich.edu', 'images/member-profiles/default_profile_img.jpg');
-  ('beclies', 'Rebecca', 'Lies', '385', FALSE, 'beclies@umich.edu', 'images/member-profiles/default_profile_img.jpg');
-  ('rfrenkel', 'Rachel', 'Frenkel', '386', FALSE, 'rfrenkel@umich.edu', 'images/member-profiles/default_profile_img.jpg');
-  ('dwangy', 'Dawn', 'Wang', '387', FALSE, 'dwangy@umich.edu', 'images/member-profiles/default_profile_img.jpg');
-  ('daphnel', 'Daphne', 'Lin', '388', FALSE, 'daphnel@umich.edu', 'images/member-profiles/default_profile_img.jpg');
-  ('kishbhut', 'kishan', 'Bhut', '389', FALSE, 'kishbhut@umich.edu', 'images/member-profiles/default_profile_img.jpg');
-  ('jcovan', 'Jessica', 'Covan', '390', FALSE, 'jcovan@umich.edu', 'images/member-profiles/default_profile_img.jpg');
-  ('jackschu', 'Jack', 'Schumaker', '391', FALSE, 'jackschu@umich.edu', 'images/member-profiles/default_profile_img.jpg');
-  ('marinaen', 'Marina', 'Engstrom', '392', FALSE, 'marinaen@umich.edu', 'images/member-profiles/default_profile_img.jpg');
-  ('ear', 'Evan', 'Arora', '393', FALSE, 'ear@umich.edu', 'images/member-profiles/default_profile_img.jpg');
-  ('bbooster', 'Bernice', 'Oosterling', '394', FALSE, 'bbooster@umich.edu', 'images/member-profiles/default_profile_img.jpg');
-  ('bbloo', 'Ben', 'Bloom', '395', FALSE, 'bbloo@umich.edu', 'images/member-profiles/default_profile_img.jpg');
-  ('ekaraasl', 'Eren', 'Karaaslan', '396', FALSE, 'ekaraasl@umich.edu', 'images/member-profiles/default_profile_img.jpg');
-  ('dejesusj', 'Jordan', 'DeJesus', '397', FALSE, 'dejesusj@umich.edu', 'images/member-profiles/default_profile_img.jpg');
-  ('jsflee', 'Jun-Sok (Felix)', 'Lee', '398', FALSE, 'jsflee@umich.edu', 'images/member-profiles/default_profile_img.jpg');
+  ('dmartyne', 'Deanna', 'Martynenko', '382', FALSE, 'dmartyne@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('kaisc', 'Kai', 'Schiefer', '384', FALSE, 'kaisc@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('beclies', 'Rebecca', 'Lies', '385', FALSE, 'beclies@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('rfrenkel', 'Rachel', 'Frenkel', '386', FALSE, 'rfrenkel@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('dwangy', 'Dawn', 'Wang', '387', FALSE, 'dwangy@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('daphnel', 'Daphne', 'Lin', '388', FALSE, 'daphnel@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('kishbhut', 'kishan', 'Bhut', '389', FALSE, 'kishbhut@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('jcovan', 'Jessica', 'Covan', '390', FALSE, 'jcovan@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('jackschu', 'Jack', 'Schumaker', '391', FALSE, 'jackschu@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('marinaen', 'Marina', 'Engstrom', '392', FALSE, 'marinaen@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('ear', 'Evan', 'Arora', '393', FALSE, 'ear@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('bbooster', 'Bernice', 'Oosterling', '394', FALSE, 'bbooster@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('bbloo', 'Ben', 'Bloom', '395', FALSE, 'bbloo@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('ekaraasl', 'Eren', 'Karaaslan', '396', FALSE, 'ekaraasl@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('dejesusj', 'Jordan', 'DeJesus', '397', FALSE, 'dejesusj@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('jsflee', 'Jun-Sok (Felix)', 'Lee', '398', FALSE, 'jsflee@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
   ('mattleve', 'Matt', 'Levenson', '399', FALSE, 'mattleve@umich.edu', 'images/member-profiles/default_profile_img.jpg');
   
-
 INSERT INTO profile (userid, major, city, state, grad_year, grad_sem, pledge_class, nickname, gender, phone, biguserid) VALUES
   ('rohansaw','Industrial and Operations Engineering','Ann Arbor','MI',2012,'Fall','Gamma Beta','',TRUE,'(734)-65-434','maxkotu'),
   ('csaucier','Civil Engineering','Midland','MI',2012,'Fall','Gamma Beta','',FALSE,'(989)-41-472','caitlincramer12'),
@@ -783,24 +782,23 @@ INSERT INTO profile (userid, major, city, state, grad_year, grad_sem, pledge_cla
   ('nmanivan','Computer Science Engineering','Novi','MI',2020,'Winter','Omicron Beta','',TRUE,'','ttristan'),
   ('hongro','Computer Science Engineering','West Bloomfield','MI',2020,'Winter','Omicron Beta','',TRUE,'','altung'),
   ('grae','Computer Science Engineering','West Bloomfield','MI',2020,'Winter','Omicron Beta','',TRUE,'','bdcam'),
-  ('dmartyne','Civil Engineering','West Bloomfield','MI',2020,'Winter','Omicron Beta','',FALSE,'','lizsgoul');
-  ('kaisc', 'Mechanical Engineering','Ann Arbor', 'MI',2020,'Winter', 'Pi Beta','',TRUE,'','oriachun');
-  ('beclies', 'Chemical Engineering', 'Naperville','IL',2020,'Winter', 'Pi Beta','',FALSE,'','sucharae');
-  ('rfrenkel', 'Computer Science', 'Ann Arbor', 'MI', 2020, 'Winter', 'Pi Beta','',FALSE,'', 'jelzinga');
-  ('dwangy', 'Materials Science and Engineering', 'Ann Arbor','MI', 2020, 'Winter', 'Pi Beta','',FALSE,'','brendjac');
-  ('daphnel', 'Chemical Engineering', 'Ann Arbor', 'MI', 2021, 'Winter', 'Pi Beta', '',FALSE,'','sjdo');
-  ('kishbhut', 'Computer Science Engineering','Ann Arbor', 'MI',2020,'Winter','Pi Beta','',TRUE,'','nwrucker');
-  ('jcovan', 'Computer Engineering','Ann Arbor','MI',2019, 'Winter', 'Pi Beta', '',FALSE,'','dmholt');
-  ('jackschu', 'Industrial and Operations Engineering', 'Ann Arbor', 'MI',2021, 'Winter', 'Pi Beta','',TRUE,'','jpbrink');
-  ('marinaen', 'Mechanical Engineering', 'Ann Arbor', 'MI', 2020,'Winter','Pi Beta','',FALSE,'','jrnisbet');
-  ('ear', 'Computer Engineering', 'Ann Arbor', 'MI', 2020,'Winter','Pi Beta','',TRUE,'','nikhilbh');
-  ('bbooster', 'Industrial and Operations Engineering', 'Ann Arbor','MI',2019,'Winter','Pi Beta','',FALSE,'','troywe');
-  ('bbloo', 'Mechanical Engineering', 'Highland Park', 'IL',2021,'Winter', 'Pi Beta','',TRUE,'','mschlaf');
-  ('ekaraasl', 'Data Science','Ann Arbor', 'MI', 2021,'Winter','Pi Beta','',TRUE,'','mateju');
-  ('dejesusj', 'Computer Science Engineering','Ann Arbor','MI',2020,'Winter','Pi Beta','',TRUE,'','nmanivan');
-  ('jsflee', 'Civil Engineering', 'Ann Arbor', 'MI',2020,'Winter','Pi Beta','',TRUE,'','mantung');
+  ('dmartyne','Civil Engineering','West Bloomfield','MI',2020,'Winter','Omicron Beta','',FALSE,'','lizsgoul'),
+  ('kaisc', 'Mechanical Engineering','Ann Arbor', 'MI',2020,'Winter', 'Pi Beta','',TRUE,'','oriachun'),
+  ('beclies', 'Chemical Engineering', 'Naperville','IL',2020,'Winter', 'Pi Beta','',FALSE,'','sucharae'),
+  ('rfrenkel', 'Computer Science', 'Ann Arbor', 'MI', 2020, 'Winter', 'Pi Beta','',FALSE,'', 'jelzinga'),
+  ('dwangy', 'Materials Science and Engineering', 'Ann Arbor','MI', 2020, 'Winter', 'Pi Beta','',FALSE,'','brendjac'),
+  ('daphnel', 'Chemical Engineering', 'Ann Arbor', 'MI', 2021, 'Winter', 'Pi Beta', '',FALSE,'','sjdo'),
+  ('kishbhut', 'Computer Science Engineering','Ann Arbor', 'MI',2020,'Winter','Pi Beta','',TRUE,'','nwrucker'),
+  ('jcovan', 'Computer Engineering','Ann Arbor','MI',2019, 'Winter', 'Pi Beta', '',FALSE,'','dmholt'),
+  ('jackschu', 'Industrial and Operations Engineering', 'Ann Arbor', 'MI',2021, 'Winter', 'Pi Beta','',TRUE,'','jpbrink'),
+  ('marinaen', 'Mechanical Engineering', 'Ann Arbor', 'MI', 2020,'Winter','Pi Beta','',FALSE,'','jrnisbet'),
+  ('ear', 'Computer Engineering', 'Ann Arbor', 'MI', 2020,'Winter','Pi Beta','',TRUE,'','nikhilbh'),
+  ('bbooster', 'Industrial and Operations Engineering', 'Ann Arbor','MI',2019,'Winter','Pi Beta','',FALSE,'','troywe'),
+  ('bbloo', 'Mechanical Engineering', 'Highland Park', 'IL',2021,'Winter', 'Pi Beta','',TRUE,'','mschlaf'),
+  ('ekaraasl', 'Data Science','Ann Arbor', 'MI', 2021,'Winter','Pi Beta','',TRUE,'','mateju'),
+  ('dejesusj', 'Computer Science Engineering','Ann Arbor','MI',2020,'Winter','Pi Beta','',TRUE,'','nmanivan'),
+  ('jsflee', 'Civil Engineering', 'Ann Arbor', 'MI',2020,'Winter','Pi Beta','',TRUE,'','mantung'),
   ('mattleve', 'Industrial and Operations Engineering', 'Ann Arbor', 'MI',2021,'Winter','Pi Beta','',TRUE,'','rousseva');
-
 
 INSERT INTO jobs (userid, title, company) VALUES
   ('genevich','Engineer','Pacific Northwest National Laboratory (internship)'),
@@ -856,7 +854,7 @@ INSERT INTO jobs (userid, title, company) VALUES
   ('michfern','Engineer','Air products and chemicals'),
   ('emjburns','Engineer','Cisco'),
   ('christag','Engineer','Intern'),
-  ('christag','Engineer','Ford; Intern'),
+  ('christag','Engineer','Ford Intern'),
   ('christag','Engineer','Neapco Drivelines LLC.'),
   ('malinare','Engineer','Sandia National Labs'),
   ('justingk','Engineer','Bosch Automotive Steering'),
@@ -2147,25 +2145,23 @@ INSERT INTO userroles (userid, roleid) VALUES
 ('nmanivan','active'),
 ('hongro','active'),
 ('grae','active'),
-('dmartyne','active');
-('kaisc', 'active');
-('beclies','active');
-('rfrenkel','active');
-('dwangy','active');
-('daphnel','active');
-('kishbhut','active');
-('jcovan','active');
-('jackschu','active');
-('marinaen','active');
-('ear','active');
-('bbooster','active');
-('bbloo','active');
-('ekaraasl','active');
-('dejesusj','active');
-('jsflee', 'active');
+('dmartyne','active'),
+('kaisc', 'active'),
+('beclies','active'),
+('rfrenkel','active'),
+('dwangy','active'),
+('daphnel','active'),
+('kishbhut','active'),
+('jcovan','active'),
+('jackschu','active'),
+('marinaen','active'),
+('ear','active'),
+('bbooster','active'),
+('bbloo','active'),
+('ekaraasl','active'),
+('dejesusj','active'),
+('jsflee', 'active'),
 ('mattleve', 'active');
-
-
 
 INSERT INTO lineage (biguserid, littleuserid) VALUES
   ('maxkotu','rohansaw'),
@@ -2524,22 +2520,22 @@ INSERT INTO lineage (biguserid, littleuserid) VALUES
   ('ttristan','nmanivan'),
   ('altung','hongro'),
   ('bdcam','grae'),
-  ('lizsgoul','dmartyne');
-  ('oriachun','kaisc',);
-  ('sucharae','beclies');
-  ('jelzinga','rfrenkel');
-  ('brendjac','dwangy');
-  ('sjdo','daphnel');
-  ('nwrucker','kishbhut');
-  ('dmholt','jcovan');
-  ('jpbrink','jackschu');
-  ('jrnisbet','marinaen');
-  ('nikhilbh','ear');
-  ('troywe','bbooster');
-  ('mschlaf','bbloo');
-  ('mateju','ekaraasl');
-  ('nmanivan','dejesusj');
-  ('mantung','jsflee');
+  ('lizsgoul','dmartyne'),
+  ('oriachun','kaisc',),
+  ('sucharae','beclies'),
+  ('jelzinga','rfrenkel'),
+  ('brendjac','dwangy'),
+  ('sjdo','daphnel'),
+  ('nwrucker','kishbhut'),
+  ('dmholt','jcovan'),
+  ('jpbrink','jackschu'),
+  ('jrnisbet','marinaen'),
+  ('nikhilbh','ear'),
+  ('troywe','bbooster'),
+  ('mschlaf','bbloo'),
+  ('mateju','ekaraasl'),
+  ('nmanivan','dejesusj'),
+  ('mantung','jsflee'),
   ('rousseva', 'mattleve');
 
 insert into mastcontent (mastimg) values
