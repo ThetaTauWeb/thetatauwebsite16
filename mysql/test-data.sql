@@ -2521,7 +2521,7 @@ INSERT INTO lineage (biguserid, littleuserid) VALUES
   ('altung','hongro'),
   ('bdcam','grae'),
   ('lizsgoul','dmartyne'),
-  ('oriachun','kaisc',),
+  ('oriachun','kaisc'),
   ('sucharae','beclies'),
   ('jelzinga','rfrenkel'),
   ('brendjac','dwangy'),
