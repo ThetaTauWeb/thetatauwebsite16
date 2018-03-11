@@ -21,7 +21,7 @@ INSERT INTO roles (roleid, title, contact_email) VALUES
   ('pfcdelgate','PFC Delgate','tht-pfc@umich.edu'),
   ('apoorva','Tht-Apoorva','tht-apoorva@umich.edu'),
   ('academic','Academic Chair','tht-academic@umich.edu'),
-  ('bylawreview','Bylaw Review Chair','tht-bylaws@umich.edu'),
+  ('bylawreview','Bylaw Review Chair','traditionsht-bylaws@umich.edu'),
   ('brobonding','Brother Bonding Chair','tht-brobonding@umich.edu'),
   ('corpspons','Corporate Sponsorship Chair','tht-corporate@umich.edu'),
   ('housing','Housing Chair','tht-housing@umich.edu'),
@@ -404,7 +404,7 @@ INSERT INTO users (userid, firstname, lastname, roll, verified, email, img) VALU
   ('rfrenkel', 'Rachel', 'Frenkel', '386', FALSE, 'rfrenkel@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
   ('dwangy', 'Dawn', 'Wang', '387', FALSE, 'dwangy@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
   ('daphnel', 'Daphne', 'Lin', '388', FALSE, 'daphnel@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
-  ('kishbhut', 'kishan', 'Bhut', '389', FALSE, 'kishbhut@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
+  ('kishbhut', 'Kishan', 'Bhut', '389', FALSE, 'kishbhut@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
   ('jcovan', 'Jessica', 'Covan', '390', FALSE, 'jcovan@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
   ('jackschu', 'Jack', 'Schumaker', '391', FALSE, 'jackschu@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
   ('marinaen', 'Marina', 'Engstrom', '392', FALSE, 'marinaen@umich.edu', 'images/member-profiles/default_profile_img.jpg'),
@@ -2160,8 +2160,8 @@ INSERT INTO userroles (userid, roleid) VALUES
 ('bbloo','active'),
 ('ekaraasl','active'),
 ('dejesusj','active'),
-('jsflee', 'active'),
-('mattleve', 'active');
+('jsflee','active'),
+('mattleve','active');
 
 INSERT INTO lineage (biguserid, littleuserid) VALUES
   ('maxkotu','rohansaw'),
@@ -2536,7 +2536,7 @@ INSERT INTO lineage (biguserid, littleuserid) VALUES
   ('mateju','ekaraasl'),
   ('nmanivan','dejesusj'),
   ('mantung','jsflee'),
-  ('rousseva', 'mattleve');
+  ('rousseva','mattleve');
 
 insert into mastcontent (mastimg) values
   ('images/mast/mast1.jpg'),
