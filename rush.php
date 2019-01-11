@@ -48,12 +48,7 @@
         </div>
       </div>
       <div class="row events opensans">
-        <div class="col-xs-12 col-sm-9 col-sm-offset-1">
-        <?php 
-          $events = rushcalendarservice($rushConfig, "rush");
-          rush_events_template($events);
-        ?>
-        </div>
+	      <p>Test</p>
       </div>
     </div>
     <div class="rush-poster-swag"></div>
